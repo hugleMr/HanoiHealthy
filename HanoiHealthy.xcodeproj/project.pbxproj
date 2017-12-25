@@ -58,7 +58,7 @@
 		0ADEA1CD1FF0FB5F00638415 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		0ADEA1D01FF0FB5F00638415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		0ADEA1D21FF0FB5F00638415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AE4A2A41FEF6772000532EB /* Hanoi Healthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hanoi Healthy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE4A2A41FEF6772000532EB /* HanoiHealthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanoiHealthy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE4A2A71FEF6773000532EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AE4A2A91FEF6773000532EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AE4A2AC1FEF6773000532EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ADEA1CC1FF0FB5F00638415 /* AQI Widget */ = {
+		0ADEA1CC1FF0FB5F00638415 /* AQIWidget */ = {
 			isa = PBXGroup;
 			children = (
 				0ADEA1CD1FF0FB5F00638415 /* TodayViewController.swift */,
@@ -105,14 +105,14 @@
 				0ADEA1D21FF0FB5F00638415 /* Info.plist */,
 				0AAEFB221FF174760005BCDC /* Media.xcassets */,
 			);
-			path = "AQI Widget";
+			path = AQIWidget;
 			sourceTree = "<group>";
 		};
 		0AE4A29B1FEF6772000532EB = {
 			isa = PBXGroup;
 			children = (
-				0AE4A2A61FEF6772000532EB /* Hanoi Healthy */,
-				0ADEA1CC1FF0FB5F00638415 /* AQI Widget */,
+				0AE4A2A61FEF6772000532EB /* HanoiHealthy */,
+				0ADEA1CC1FF0FB5F00638415 /* AQIWidget */,
 				0AE4A2A51FEF6772000532EB /* Products */,
 				6C138F56AAF01251EF684853 /* Pods */,
 				6BE2DB326EE7DD7B44053E59 /* Frameworks */,
@@ -122,13 +122,13 @@
 		0AE4A2A51FEF6772000532EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AE4A2A41FEF6772000532EB /* Hanoi Healthy.app */,
+				0AE4A2A41FEF6772000532EB /* HanoiHealthy.app */,
 				0ADEA1C91FF0FB5F00638415 /* AQI Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0AE4A2A61FEF6772000532EB /* Hanoi Healthy */ = {
+		0AE4A2A61FEF6772000532EB /* HanoiHealthy */ = {
 			isa = PBXGroup;
 			children = (
 				0AE4A2A71FEF6773000532EB /* AppDelegate.swift */,
@@ -139,7 +139,7 @@
 				0AE4A2B31FEF6773000532EB /* Info.plist */,
 				0A5100601FEFB97300C853AC /* MainView.swift */,
 			);
-			path = "Hanoi Healthy";
+			path = HanoiHealthy;
 			sourceTree = "<group>";
 		};
 		6BE2DB326EE7DD7B44053E59 /* Frameworks */ = {
@@ -186,9 +186,9 @@
 			productReference = 0ADEA1C91FF0FB5F00638415 /* AQI Widget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		0AE4A2A31FEF6772000532EB /* Hanoi Healthy */ = {
+		0AE4A2A31FEF6772000532EB /* HanoiHealthy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AE4A2B61FEF6773000532EB /* Build configuration list for PBXNativeTarget "Hanoi Healthy" */;
+			buildConfigurationList = 0AE4A2B61FEF6773000532EB /* Build configuration list for PBXNativeTarget "HanoiHealthy" */;
 			buildPhases = (
 				1265CC0F89A3DF321733DDAC /* [CP] Check Pods Manifest.lock */,
 				0AE4A2A01FEF6772000532EB /* Sources */,
@@ -203,9 +203,9 @@
 			dependencies = (
 				0ADEA1D41FF0FB5F00638415 /* PBXTargetDependency */,
 			);
-			name = "Hanoi Healthy";
+			name = HanoiHealthy;
 			productName = "Hanoi Healthy";
-			productReference = 0AE4A2A41FEF6772000532EB /* Hanoi Healthy.app */;
+			productReference = 0AE4A2A41FEF6772000532EB /* HanoiHealthy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0AE4A29F1FEF6772000532EB /* Build configuration list for PBXProject "Hanoi Healthy" */;
+			buildConfigurationList = 0AE4A29F1FEF6772000532EB /* Build configuration list for PBXProject "HanoiHealthy" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -241,7 +241,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AE4A2A31FEF6772000532EB /* Hanoi Healthy */,
+				0AE4A2A31FEF6772000532EB /* HanoiHealthy */,
 				0ADEA1C81FF0FB5F00638415 /* AQI Widget */,
 			);
 		};
@@ -614,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AE4A29F1FEF6772000532EB /* Build configuration list for PBXProject "Hanoi Healthy" */ = {
+		0AE4A29F1FEF6772000532EB /* Build configuration list for PBXProject "HanoiHealthy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AE4A2B41FEF6773000532EB /* Debug */,
@@ -623,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AE4A2B61FEF6773000532EB /* Build configuration list for PBXNativeTarget "Hanoi Healthy" */ = {
+		0AE4A2B61FEF6773000532EB /* Build configuration list for PBXNativeTarget "HanoiHealthy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AE4A2B71FEF6773000532EB /* Debug */,
