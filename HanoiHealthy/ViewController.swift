@@ -36,12 +36,45 @@ class ViewController: MainView {
         refreshView.addTarget(self, action: #selector(refreshControl(sender:)), for: UIControlEvents.valueChanged)
         self.scrollView.refreshControl = refreshView
         
-        fetchWeatherData()
+        //fetchWeatherData()
+        
+        fetchWeather()
     }
     
     @objc func refreshControl(sender: UIRefreshControl){
         //aqi_number.text = ""
+        
         fetchWeatherData()
+    }
+    
+    func fetchWeather(){
+        let url = "https://www.accuweather.com/vi/vn/hanoi/353412/daily-weather-forecast/353412?day=1"
+        guard let myURL = URL(string: url) else {
+            print("Error: \(url) doesn't seem to be a valid URL")
+            return
+        }
+        
+        do {
+            let html = try String(contentsOf: myURL, encoding: .utf8)
+            
+            do{
+                let document: Document = try SwiftSoup.parse(html)
+                
+                //====== number
+                let number = try document.select("[class=bg bg-c")
+                for number_text in number.array(){
+                    print("\(try number_text.text())")
+                }
+                
+            }catch Exception.Error( _, let message){
+                print(message)
+            }catch{
+                print("error")
+            }
+        } catch let error {
+            print("Error: \(error)")
+        }
+        
     }
 
     private func fetchWeatherData() {

@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A437A97200FA967005B9CEA /* AirVisualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A437A96200FA966005B9CEA /* AirVisualController.swift */; };
+		0A437A99200FAA5C005B9CEA /* AirVisual.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A437A98200FAA5C005B9CEA /* AirVisual.storyboard */; };
 		0A51005F1FEF778F00C853AC /* SwiftSoup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A51005A1FEF74C100C853AC /* SwiftSoup.framework */; };
 		0A5100611FEFB97300C853AC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5100601FEFB97300C853AC /* MainView.swift */; };
 		0AAEFB231FF174760005BCDC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAEFB221FF174760005BCDC /* Media.xcassets */; };
+		0AD5BC272010E7DA009FC594 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD5BC262010E7DA009FC594 /* Alamofire.framework */; };
 		0ADEA1CB1FF0FB5F00638415 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADEA1CA1FF0FB5F00638415 /* NotificationCenter.framework */; };
 		0ADEA1CE1FF0FB5F00638415 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEA1CD1FF0FB5F00638415 /* TodayViewController.swift */; };
 		0ADEA1D11FF0FB5F00638415 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADEA1CF1FF0FB5F00638415 /* MainInterface.storyboard */; };
@@ -20,9 +23,8 @@
 		0AE4A2AD1FEF6773000532EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE4A2AB1FEF6773000532EB /* Main.storyboard */; };
 		0AE4A2AF1FEF6773000532EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE4A2AE1FEF6773000532EB /* Assets.xcassets */; };
 		0AE4A2B21FEF6773000532EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE4A2B01FEF6773000532EB /* LaunchScreen.storyboard */; };
-		133DE3D46BB492E7150E3848 /* Pods_Hanoi_Healthy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58128A305912F71C850F902 /* Pods_Hanoi_Healthy.framework */; };
 		387B7DF48C29B84F2A60BC9D /* Pods_AQI_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B92A8928D9CD2CC100AC128 /* Pods_AQI_Widget.framework */; };
-		5D60906DB5A2AC45B8A79227 /* Pods_Hanoi_Healthy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58128A305912F71C850F902 /* Pods_Hanoi_Healthy.framework */; };
+		59EFEE2EE85337FC351D173F /* Pods_HanoiHealthy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840CC54D809F25C64863B0A /* Pods_HanoiHealthy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +52,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A437A96200FA966005B9CEA /* AirVisualController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisualController.swift; sourceTree = "<group>"; };
+		0A437A98200FAA5C005B9CEA /* AirVisual.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AirVisual.storyboard; sourceTree = "<group>"; };
+		0A437A9B200FAB7D005B9CEA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A437A9C200FABE0005B9CEA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Hanoi_Healthy-etaaxuvnooulyoaidtfilnjrtjnp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		0A51005A1FEF74C100C853AC /* SwiftSoup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSoup.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Hanoi_Healthy-etaaxuvnooulyoaidtfilnjrtjnp/Build/Products/Debug-iphoneos/SwiftSoup/SwiftSoup.framework"; sourceTree = "<group>"; };
 		0A5100601FEFB97300C853AC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0AAEFB221FF174760005BCDC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		0AD5BC262010E7DA009FC594 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Hanoi_Healthy-etaaxuvnooulyoaidtfilnjrtjnp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		0ADEA1C91FF0FB5F00638415 /* AQI Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AQI Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADEA1CA1FF0FB5F00638415 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		0ADEA1CD1FF0FB5F00638415 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -65,11 +72,12 @@
 		0AE4A2AE1FEF6773000532EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AE4A2B11FEF6773000532EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AE4A2B31FEF6773000532EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		211359CBE7B1C9C8F69E2B0A /* Pods-Hanoi Healthy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanoi Healthy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hanoi Healthy/Pods-Hanoi Healthy.debug.xcconfig"; sourceTree = "<group>"; };
+		1840CC54D809F25C64863B0A /* Pods_HanoiHealthy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanoiHealthy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B92A8928D9CD2CC100AC128 /* Pods_AQI_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AQI_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FD2EA91741E4E9D0D6120F /* Pods-HanoiHealthy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanoiHealthy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HanoiHealthy/Pods-HanoiHealthy.debug.xcconfig"; sourceTree = "<group>"; };
 		B08E0A2ABB245F11D2A943AA /* Pods-AQI Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQI Widget.release.xcconfig"; path = "Pods/Target Support Files/Pods-AQI Widget/Pods-AQI Widget.release.xcconfig"; sourceTree = "<group>"; };
 		D20D7CD2115E4DEA65D52DA1 /* Pods-AQI Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQI Widget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AQI Widget/Pods-AQI Widget.debug.xcconfig"; sourceTree = "<group>"; };
-		DAE60F06FCCFB83214F4532A /* Pods-Hanoi Healthy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanoi Healthy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hanoi Healthy/Pods-Hanoi Healthy.release.xcconfig"; sourceTree = "<group>"; };
+		D799B86FE349BEC746AC6EF2 /* Pods-HanoiHealthy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanoiHealthy.release.xcconfig"; path = "Pods/Target Support Files/Pods-HanoiHealthy/Pods-HanoiHealthy.release.xcconfig"; sourceTree = "<group>"; };
 		E58128A305912F71C850F902 /* Pods_Hanoi_Healthy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hanoi_Healthy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,9 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD5BC272010E7DA009FC594 /* Alamofire.framework in Frameworks */,
 				0A51005F1FEF778F00C853AC /* SwiftSoup.framework in Frameworks */,
-				133DE3D46BB492E7150E3848 /* Pods_Hanoi_Healthy.framework in Frameworks */,
-				5D60906DB5A2AC45B8A79227 /* Pods_Hanoi_Healthy.framework in Frameworks */,
+				59EFEE2EE85337FC351D173F /* Pods_HanoiHealthy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +146,8 @@
 				0AE4A2B01FEF6773000532EB /* LaunchScreen.storyboard */,
 				0AE4A2B31FEF6773000532EB /* Info.plist */,
 				0A5100601FEFB97300C853AC /* MainView.swift */,
+				0A437A96200FA966005B9CEA /* AirVisualController.swift */,
+				0A437A98200FAA5C005B9CEA /* AirVisual.storyboard */,
 			);
 			path = HanoiHealthy;
 			sourceTree = "<group>";
@@ -145,10 +155,14 @@
 		6BE2DB326EE7DD7B44053E59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A437A9B200FAB7D005B9CEA /* Alamofire.framework */,
+				0A437A9C200FABE0005B9CEA /* Alamofire.framework */,
+				0AD5BC262010E7DA009FC594 /* Alamofire.framework */,
 				0A51005A1FEF74C100C853AC /* SwiftSoup.framework */,
 				E58128A305912F71C850F902 /* Pods_Hanoi_Healthy.framework */,
 				0ADEA1CA1FF0FB5F00638415 /* NotificationCenter.framework */,
 				3B92A8928D9CD2CC100AC128 /* Pods_AQI_Widget.framework */,
+				1840CC54D809F25C64863B0A /* Pods_HanoiHealthy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,10 +170,10 @@
 		6C138F56AAF01251EF684853 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				211359CBE7B1C9C8F69E2B0A /* Pods-Hanoi Healthy.debug.xcconfig */,
-				DAE60F06FCCFB83214F4532A /* Pods-Hanoi Healthy.release.xcconfig */,
 				D20D7CD2115E4DEA65D52DA1 /* Pods-AQI Widget.debug.xcconfig */,
 				B08E0A2ABB245F11D2A943AA /* Pods-AQI Widget.release.xcconfig */,
+				A2FD2EA91741E4E9D0D6120F /* Pods-HanoiHealthy.debug.xcconfig */,
+				D799B86FE349BEC746AC6EF2 /* Pods-HanoiHealthy.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -264,6 +278,7 @@
 				0AE4A2B21FEF6773000532EB /* LaunchScreen.storyboard in Resources */,
 				0AE4A2AF1FEF6773000532EB /* Assets.xcassets in Resources */,
 				0AE4A2AD1FEF6773000532EB /* Main.storyboard in Resources */,
+				0A437A99200FAA5C005B9CEA /* AirVisual.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +296,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Hanoi Healthy-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HanoiHealthy-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -312,16 +327,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Hanoi Healthy/Pods-Hanoi Healthy-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-HanoiHealthy/Pods-HanoiHealthy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanoi Healthy/Pods-Hanoi Healthy-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HanoiHealthy/Pods-HanoiHealthy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		40CA51B368B10C0DF891398D /* [CP] Copy Pods Resources */ = {
@@ -336,7 +355,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hanoi Healthy/Pods-Hanoi Healthy-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HanoiHealthy/Pods-HanoiHealthy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D8FD0EDDED76EAE65FABF2F5 /* [CP] Copy Pods Resources */ = {
@@ -372,6 +391,7 @@
 				0AE4A2AA1FEF6773000532EB /* ViewController.swift in Sources */,
 				0A5100611FEFB97300C853AC /* MainView.swift in Sources */,
 				0AE4A2A81FEF6773000532EB /* AppDelegate.swift in Sources */,
+				0A437A97200FA967005B9CEA /* AirVisualController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +439,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ7Z5U725W;
-				INFOPLIST_FILE = "AQI Widget/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AQIWidget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				OTHER_LDFLAGS = "";
@@ -437,7 +457,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ7Z5U725W;
-				INFOPLIST_FILE = "AQI Widget/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AQIWidget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				OTHER_LDFLAGS = "";
@@ -558,7 +578,7 @@
 		};
 		0AE4A2B71FEF6773000532EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 211359CBE7B1C9C8F69E2B0A /* Pods-Hanoi Healthy.debug.xcconfig */;
+			baseConfigurationReference = A2FD2EA91741E4E9D0D6120F /* Pods-HanoiHealthy.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -568,8 +588,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Hanoi Healthy/Info.plist";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/HanoiHealthy/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.math.Hanoi-Healthy";
@@ -581,7 +601,7 @@
 		};
 		0AE4A2B81FEF6773000532EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAE60F06FCCFB83214F4532A /* Pods-Hanoi Healthy.release.xcconfig */;
+			baseConfigurationReference = D799B86FE349BEC746AC6EF2 /* Pods-HanoiHealthy.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -591,8 +611,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Hanoi Healthy/Info.plist";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HanoiHealthy/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.math.Hanoi-Healthy";
