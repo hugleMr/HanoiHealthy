@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftSoup
+import Alamofire
 
 class MainView: UIViewController {
     
@@ -26,9 +27,28 @@ class MainView: UIViewController {
     let response_data = "response"
     
     let activedata_aqi_gauge = "activedata-aqi  gauge"
+    
+    let headers: [String: String] = ["api_key" : "uis5npWMPC6qkzXFb"]
+    let api_key: String = "uis5npWMPC6qkzXFb"
+    let domain: String = "http://api.airvisual.com/v2/"
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+}
+
+extension MainView {
+    func getDataFromJson(url: String,parameters:Parameters?, completion: @escaping (_ success: DataResponse<Any>) -> Void) {
+        
+        let myUrl: String = domain + url + "key=" + api_key;
+        
+        Alamofire.request(myUrl, method: HTTPMethod.get, parameters: parameters, encoding: JSONEncoding.default, headers: nil).responseJSON { response in
+            
+            //self.hideLoading(uiView: self.view);
+            completion(response)
+        }
+        
     }
 }
 
